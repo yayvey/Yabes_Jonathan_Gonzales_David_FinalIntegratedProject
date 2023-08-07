@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900');
+
+body.path-user:not(.user-logged-in) {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  padding: 0 !important;
+  background: #F5f5f5; }
+body.path-user:not(.user-logged-in) .dialog-off-canvas-main-canvas {
+  display: block;
+  height: 100vh;
+  width: 100vw; }
+body.path-user:not(.user-logged-in) #navbar {
+  display: none !important; }
+body.path-user:not(.user-logged-in) #footer {
+  display: none !important; }
+body.path-user:not(.user-logged-in) #page {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+body.path-user:not(.user-logged-in) #page p,
+body.path-user:not(.user-logged-in) #page h1,
+body.path-user:not(.user-logged-in) #page h2,
+body.path-user:not(.user-logged-in) #page h3,
+body.path-user:not(.user-logged-in) #page h4,
+body.path-user:not(.user-logged-in) #page h5,
+body.path-user:not(.user-logged-in) #page h6,
+body.path-user:not(.user-logged-in) #page a,
+body.path-user:not(.user-logged-in) #page label,
+body.path-user:not(.user-logged-in) #page button {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: normal; }
+body.path-user:not(.user-logged-in) #page p {
+  color: #3b3b3b;}
+body.path-user:not(.user-logged-in) #page label {
+  color: #3b3b3b;
+  font-weight: 700;}
+body.path-user:not(.user-logged-in) #page .row {
+  width: 320px;
+  margin: 0 auto;
+  background: #FFF;
+  border-radius: 10px;
+  padding: 0;
+  box-shadow: 2px 2px 10px #777; }
+body.path-user:not(.user-logged-in) #page .row .messages__wrapper {
+  width: 300px;
+  top: -100px;
+  left: 0;
+  right: 0;
+  position: absolute; }
+body.path-user:not(.user-logged-in) #page .row .messages__wrapper p {
+  font-size: 12px; }
+body.path-user:not(.user-logged-in) #page .row #page-header {
+  display: flex;
+  background-color: #E3B447;
+  background-image: url(../images/Login-Header1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 15px;
+  padding: 20px 10px;
+  height: 80px;
+  opacity: 1; }
+body.path-user:not(.user-logged-in) #page .row #page-header .page-header {
+  text-align: center;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #FFF !important;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 500;
+  text-transform: none; }
+body.path-user:not(.user-logged-in) #page .row nav.tabs {
+  display: none; }
+body.path-user:not(.user-logged-in) #page .row nav.tabs .nav-tabs {
+  border: none;
+  margin-bottom: 15px; }
+body.path-user:not(.user-logged-in) #page .row nav.tabs .nav-tabs > li {
+  float: none;
+  width: 100%;
+  text-align: center; }
+body.path-user:not(.user-logged-in) #page .row nav.tabs .nav-tabs > li > a {
+  padding: 0;
+  border: none;
+  color: #555555;
+  transition: 300ms; }
+body.path-user:not(.user-logged-in) #page .row nav.tabs .nav-tabs > li > a:hover,
+body.path-user:not(.user-logged-in) #page .row nav.tabs .nav-tabs > li > a:focus {
+  color: #e6b53c;
+  background: transparent; }
+body.path-user:not(.user-logged-in) #page .row .region.region-content {
+  margin: 0; }
+body.path-user:not(.user-logged-in) #page .row .region.region-content .user-login-form {
+  margin: 0; }
+body.path-user:not(.user-logged-in) #page #edit-submit {
+  width: 100%;
+  margin: 0;
+  background-color: #e6b53c;
+  border: none;
+  font-size: 14px;
+  padding: 6px 12px;
+  font-weight: 400;
+  border-radius: 4px; }
+body.path-user:not(.user-logged-in) #page .form-group {
+  margin-bottom: 15px; }
+body.path-user:not(.user-logged-in) #page .form-group .form-control {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  border-radius: 0;
+  border-bottom: 1px solid #e6b53c;
+  padding: 0;
+  height: 24px; }

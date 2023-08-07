@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class=" js" lang="en-CA"><head style="">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css">.truste_cursor_pointer {cursor: pointer;}.truste_border_none {border: none;}</style>
+  <meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"173f877119",applicationID:"995834094"};;(()=>{"use strict";var e,t,r={8768:(e,t,r)=>{r.d(t,{T:()=>n,p:()=>i});const n=/(iPad|iPhone|iPod)/g.test(navigator.userAgent),i=n&&Boolean("undefined"==typeof SharedWorker)},880:(e,t,r)=>{r.d(t,{P_:()=>f,Mt:()=>p,C5:()=>s,DL:()=>m,OP:()=>k,lF:()=>j,Yu:()=>y,Dg:()=>g,CX:()=>c,GE:()=>b,sU:()=>_});var n=r(6797),i=r(4286);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o),(0,n.Qy)(e,a[e],"info")}var u=r(2797);const d=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:u.oD,inactiveMs:u.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},session_replay:{enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10}}},l={};function f(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=(0,i.D)(t,d()),(0,n.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=f(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const v={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},h={};function m(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!h[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return h[e]}function b(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");h[e]=(0,i.D)(t,v),(0,n.Qy)(e,h[e],"loader_config")}const y=(0,n.mF)().o;var w=r(2374),A=r(1651);const x={buildEnv:A.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:A.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:A.q4},D={};function k(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!D[e])throw new Error("Runtime for ".concat(e," was never set"));return D[e]}function _(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");D[e]=(0,i.D)(t,x),(0,n.Qy)(e,D[e],"runtime")}function j(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},4286:(e,t,r)=>{r.d(t,{D:()=>i});var n=r(8610);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},1651:(e,t,r)=>{r.d(t,{Re:()=>i,gF:()=>o,q4:()=>n});const n="1.233.1",i="PROD",o="CDN"},9557:(e,t,r)=>{r.d(t,{w:()=>o});var n=r(8610);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},4329:(e,t,r)=>{r.d(t,{L:()=>d,R:()=>c});var n=r(3752),i=r(7022),o=r(4045),a=r(2325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const r=[...s[e]];function a(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((e=>{let[t]=e;a(t)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},3752:(e,t,r)=>{r.d(t,{ee:()=>u});var n=r(6797),i=r(3916),o=r(7022),a=r(880),s="nr@context";let c=(0,n.fP)();var u;function d(){}function l(){return new d}function f(){u.aborted=!0,u.backlog={}}c.ee?u=c.ee:(u=function e(t,r){var n={},c={},g={},p=!1;try{p=16===r.length&&(0,a.OP)(r).isolatedBacklog}catch(e){}var v={on:b,addEventListener:b,removeEventListener:y,emit:m,get:A,listeners:w,context:h,buffer:x,abort:f,aborted:!1,isBuffering:D,debugId:r,backlog:p?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return v;function h(e){return e&&e instanceof d?e:e?(0,i.X)(e,s,l):l()}function m(e,r,n,i,o){if(!1!==o&&(o=!0),!u.aborted||i){t&&o&&t.emit(e,r,n);for(var a=h(n),s=w(e),d=s.length,l=0;l<d;l++)s[l].apply(a,r);var f=k()[c[e]];return f&&f.push([v,e,r,a]),a}}function b(e,t){n[e]=w(e).concat(t)}function y(e,t){var r=n[e];if(r)for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)}function w(e){return n[e]||[]}function A(t){return g[t]=g[t]||e(v,t)}function x(e,t){var r=k();v.aborted||(0,o.D)(e,(function(e,n){t=t||"feature",c[n]=t,t in r||(r[t]=[])}))}function D(e){return!!k()[c[e]]}function k(){return v.backlog}}(void 0,"globalEE"),c.ee=u)},9252:(e,t,r)=>{r.d(t,{E:()=>n,p:()=>i});var n=r(3752).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4045:(e,t,r)=>{r.d(t,{X:()=>o});var n=r(9252);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},8544:(e,t,r)=>{r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(2374);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},5526:(e,t,r)=>{r.d(t,{Rl:()=>a,ky:()=>s});var n=r(2374);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?o(t,++r).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(31)));const a=[];for(var s=0;s<e;s++)a.push(o(r,++i).toString(16));return a.join("")}},2797:(e,t,r)=>{r.d(t,{Bq:()=>n,Hb:()=>o,oD:()=>i});const n="NRBA",i=144e5,o=18e5},2053:(e,t,r)=>{function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},8610:(e,t,r)=>{function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},3916:(e,t,r)=>{r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},2374:(e,t,r)=>{r.d(t,{FN:()=>a,_A:()=>o,il:()=>n,v6:()=>i});const n=Boolean("undefined"!=typeof window&&window.document),i=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator);let o=(()=>{if(n)return window;if(i){if("undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope)return globalThis;if(self instanceof WorkerGlobalScope)return self}throw new Error('New Relic browser agent shutting down due to error: Unable to locate global scope. This is possibly due to code redefining browser global variables like "self" and "window".')})();const a=""+o.location},7022:(e,t,r)=>{r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},2438:(e,t,r)=>{r.d(t,{P:()=>o});var n=r(3752);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},2650:(e,t,r)=>{r.d(t,{K:()=>a,b:()=>o});var n=r(8544);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},6797:(e,t,r)=>{r.d(t,{EZ:()=>u,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>d,mF:()=>s});var n=r(2053),i=r(2374);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,r){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.z)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[r]:t}},i}function u(e,t){a()[e]=t}function d(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},6998:(e,t,r)=>{r.d(t,{N:()=>i});var n=r(8544);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),r,i)}},6034:(e,t,r)=>{r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(2325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},2484:(e,t,r)=>{r.d(t,{Dz:()=>i,OJ:()=>a,qw:()=>o,t9:()=>n});const n=r(2325).D.pageViewEvent,i="firstbyte",o="domcontent",a="windowload"},6382:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(2325).D.pageViewTiming},1509:(e,t,r)=>{r.d(t,{W:()=>o});var n=r(880),i=r(3752);class o{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,n.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=r,this.blocked=!1}}},2384:(e,t,r)=>{r.d(t,{j:()=>b});var n=r(2325),i=r(880),o=r(9252),a=r(3752),s=r(2053),c=r(4329),u=r(2650),d=r(2374),l=r(8610),f=r(6034),g=r(6797);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}var v=r(7022);const h={stn:[n.D.sessionTrace],err:[n.D.jserrors,n.D.metrics],ins:[n.D.pageAction],spa:[n.D.spa],sr:[n.D.sessionReplay]};const m={};function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:x,runtime:D={loaderType:b},exposed:k=!0}=t;const _=(0,g.gG)();A||(w=_.init,A=_.info,x=_.loader_config),(0,i.Dg)(e,w||{}),(0,i.GE)(e,x||{}),(0,i.sU)(e,D),A.jsAttributes??={},d.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e,A),p();const j=function(e,t){t||(0,c.R)(e,"api");const g={};var p=a.ee.get(e),v=p.get("tracer"),h="api-",m=h+"ixn-";function b(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),A(h,n,!0,o||null===r?"session":void 0)(t,r)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>g[e]=A(h,e,!0,"api"))),g.addPageAction=A(h,"addPageAction",!0,n.D.pageAction),g.setCurrentRouteName=A(h,"routeName",!0,n.D.spa),g.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,A(h,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(m+"tracer",[(0,s.z)(),e,r],i,n.D.spa,p),function(){if(v.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw v.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],r),e}finally{v.emit("fn-end",[(0,s.z)()],r)}}}};function A(e,t,r,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,p),r?void 0:this}}function x(){r.e(439).then(r.bind(r,5692)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,n.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,p)},d.v6?x():(0,u.b)((()=>x()),!0),g}(e,y);return(0,g.Qy)(e,j,"api"),(0,g.Qy)(e,k,"exposed"),(0,g.EZ)("activatedFeatures",m),(0,g.EZ)("setToken",(t=>function(e,t){var r=a.ee.get(t);e&&"object"==typeof e&&((0,v.D)(e,(function(e,t){if(!t)return(h[e]||[]).forEach((t=>{(0,o.p)("block-"+e,[],void 0,t,r)}));m[e]||((0,o.p)("feat-"+e,[],void 0,h[e],r),m[e]=!0)})),(0,c.L)(t,n.D.pageViewEvent))}(t,e))),j}},2325:(e,t,r)=>{r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",412:"lazy-feature-loader",439:"async-api",538:"recorder",590:"session_replay-aggregate",675:"compressor",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"4232b7dc",147:"ec8522db",193:"e9297121",242:"9add1ca0",286:"ad2be955",317:"cf894689",348:"460e995b",412:"e269e202",439:"6ec4d8b5",538:"b9a5173b",590:"c104eaa2",675:"92c94011",786:"aa8faac3",862:"80c3b04d",873:"af7499d1",898:"3d71ccdd"}[e]+"-1.233.1.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r),e[r]=[n];var f=(t,n)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=527,i.p="https://js-agent.newrelic.com/",(()=>{var e={527:0,337:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=window.webpackChunkNRBA=window.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})();var o={};(()=>{i.r(o);var e=i(2325),t=i(880);const r=Object.values(e.D);function n(e){const n={};return r.forEach((r=>{n[r]=function(e,r){return!1!==(0,t.Mt)(r,"".concat(e,".enabled"))}(r,e)})),n}var a=i(2384);var s=i(9252),c=i(8768),u=i(4329),d=i(1509),l=i(2650),f=i(2374),g=i(8610);class p extends d.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.hasAggregator=!1,this.auto=n,this.abortHandler,n&&(0,u.R)(e,r)}importAggregator(r){if(this.hasAggregator||!this.auto)return;let n,o;this.hasAggregator=!0,!0!==(0,t.Mt)(this.agentIdentifier,"privacy.cookies_enabled")||f.v6||(o=Promise.all([i.e(286),i.e(242)]).then(i.bind(i,3289)).catch((e=>{(0,g.Z)("failed to import the session manager",e)})));const a=async()=>{try{if(o&&!n){const{setupAgentSession:e}=await o;n=e(this.agentIdentifier)}if(!function(t,r){return t!==e.D.sessionReplay||(!!r?.isNew||!!r?.state.sessionReplayActive)}(this.featureName,n))return void(0,u.L)(this.agentIdentifier,this.featureName);const{lazyFeatureLoader:t}=await i.e(412).then(i.bind(i,3160)),{Aggregate:a}=await t(this.featureName,"aggregate");new a(this.agentIdentifier,this.aggregator,r)}catch(e){(0,g.Z)("Downloading ".concat(this.featureName," failed..."),e),this.abortHandler?.()}};f.v6?a():(0,l.b)((()=>a()),!0)}}var v=i(2484),h=i(2053);class m extends p{static featureName=v.t9;constructor(r,n){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(r,n,v.t9,i),("undefined"==typeof PerformanceNavigationTiming||c.T)&&"undefined"!=typeof PerformanceTiming){const n=(0,t.OP)(r);n[v.Dz]=Math.max(Date.now()-n.offset,0),(0,l.K)((()=>n[v.qw]=Math.max((0,h.z)()-n[v.Dz],0))),(0,l.b)((()=>{const t=(0,h.z)();n[v.OJ]=Math.max(t-n[v.Dz],0),(0,s.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var b=i(9557),y=i(7022);class w extends b.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,y.D)(e,(function(e,r){t[e]=A(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,y.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=A(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=x(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=A(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=D(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function A(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=x(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function x(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function D(e){return"object"!=typeof e?[]:(0,y.D)(e,k)}function k(e,t){return t}var _=i(6797),j=i(5526),E=i(2438);var S=i(6998),T=i(8544),P=i(6382);class N extends p{static featureName=P.t;constructor(e,r){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,r,P.t,n),f.il&&((0,t.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,S.N)((()=>(0,s.p)("docHidden",[(0,h.z)()],void 0,P.t,this.ee)),!0),(0,T.bP)("pagehide",(()=>(0,s.p)("winPagehide",[(0,h.z)()],void 0,P.t,this.ee))),this.importAggregator())}}const I=Boolean(f._A?.Worker),O=Boolean(f._A?.SharedWorker),R=Boolean(f._A?.navigator?.serviceWorker);let C,M,B;var z=i(6034);class q extends p{static featureName=z.t9;constructor(t,r){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(t,r,z.t9,n),function(e){if(!C){if(I){C=Worker;try{f._A.Worker=r(C,"Dedicated")}catch(e){o(e,"Dedicated")}if(O){M=SharedWorker;try{f._A.SharedWorker=r(M,"Shared")}catch(e){o(e,"Shared")}}else n("Shared");if(R){B=navigator.serviceWorker.register;try{f._A.navigator.serviceWorker.register=(t=B,function(){for(var e=arguments.length,r=new Array(e),n=0;n<e;n++)r[n]=arguments[n];return i("Service",r[1]?.type),t.apply(navigator.serviceWorker,r)})}catch(e){o(e,"Service")}}else n("Service");var t;return}n("All")}function r(e,t){return"undefined"==typeof Proxy?e:new Proxy(e,{construct:(e,r)=>(i(t,r[1]?.type),new e(...r))})}function n(t){f.v6||e("Workers/".concat(t,"/Unavailable"))}function i(t,r){e("Workers/".concat(t,"module"===r?"/Module":"/Classic"))}function o(t,r){e("Workers/".concat(r,"/SM/Unsupported")),(0,g.Z)("NR Agent: Unable to capture ".concat(r," workers."),t)}}((t=>(0,s.p)(z.xS,[t],void 0,e.D.metrics,this.ee))),this.importAggregator()}}new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,j.ky)(16);this.agentIdentifier=t,this.sharedAggregator=new w({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(m),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const r=n(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((t,r)=>e.p[t.featureName]-e.p[r.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===e.D.pageViewEvent){const n=function(t){switch(t){case e.D.ajax:return[e.D.jserrors];case e.D.sessionTrace:return[e.D.ajax,e.D.pageViewEvent];case e.D.pageViewTiming:return[e.D.pageViewEvent];default:return[]}}(t.featureName);n.every((e=>r[e]))||(0,g.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,E.P)(n),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,g.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}}({features:[m,N,q],loaderType:"lite"})})(),window.NRBA=o})();</script>
+<link rel="canonical" href="https://www.coorslight.ca/en-CA">
+<link rel="shortlink" href="https://www.coorslight.ca/en-CA">
+<meta name="description" content="Coors is 4.2% ABV light beer that is always lagered, filtered, and packaged cold.">
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="https://www.coorslight.ca/themes/custom/coorslight/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="alternate" hreflang="en-CA" href="https://www.coorslight.ca/en-CA">
+<script src="Home%20Coors%20Light_files/launch-acdd4f2a40a8.min.js" type="text/javascript"></script><script src="Home%20Coors%20Light_files/AppMeasurement.min.js" async=""></script><script src="Home%20Coors%20Light_files/AppMeasurement_Module_ActivityMap.min.js" async=""></script><script async="async" type="text/javascript" crossorigin="" src="Home%20Coors%20Light_files/notice" id="truste_0.18980708572113414"></script><script>
+var rsID = _satellite.getVar('RSID');
+
+var cTop = document.createComment("Amobee Data Collection Pixel");
+
+var sURL = window.location.href.split('?')[0];
+
+var sPath = sURL.replace(/%C3%B1/gi, 'n').replace(/\//gi,'%2F').replace(/:/gi,'%3A').replace('-','%2D');
+
+var sTag = document.createElement("script");
+
+var sPixel = "https://d.turn.com/r/dd/id/L21rdC8xNzM0L2NpZC8xNzQ5NjM3NTgwL3QvMA/cat/" + rsID + "/qry/"
+    
+var sPixelAmobee = sPixel + sPath;
+
+sTag.setAttribute("type", "text/javascript");
+sTag.setAttribute("src", sPixelAmobee);
+
+document.getElementsByTagName('head')[0].appendChild(cTop);
+document.getElementsByTagName('head')[0].appendChild(sTag);
+</script><!--Amobee Data Collection Pixel--><script type="text/javascript" src="Home%20Coors%20Light_files/https%20__www.coorslight.ca_en-CA"></script>
+
+    <title>Home | Coors Light</title>
+    <link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/core.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/resizable.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/align.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/fieldgroup.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/container-inline.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/clearfix.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/details.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/hidden.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/item-list.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/js.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/nowrap.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/position-container.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/progress.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/reset-appearance.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/resize.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/sticky-header.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/system-status-counter.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/system-status-report-counters.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/system-status-report-general-info.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/tablesort.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/tree-child.module.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/bootstrap-paragraphs.min.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/bootstrap-paragraphs-columns.min.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/bootstrap-paragraphs-colors.min.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/theme.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/productlocator.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/ps_where_to_buy.min.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/paragraphs.unpublished.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/mobiscroll.jquery.min.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/ageverification.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/popup.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/style.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/animate.min.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/slick.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/slick-theme.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/featherlight.min.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/cl-video-slider.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/login.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/mic_popup-86eaf2d59a2f628aa884824190386766.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/mic_video-7e5e23d1b73808f1dd51595f02edc842.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/nyc-8aae36ad065ac66cc11f398cce8ad0d2.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/promo_ie_your_chance_to_win-c471a0900ea7702f4e03909cf1952755.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/shop_banner-1287c3578d679713a9a508605c1cd78d.css">
+<link rel="stylesheet" media="all" href="Home%20Coors%20Light_files/styles_pr_210915-5b2755c20af555b5d27c8ed1379806d9.css">
+
+      <script src="Home%20Coors%20Light_files/ps-widget.js" async=""></script>
+<script src="Home%20Coors%20Light_files/ps-utid.js" async=""></script>
+
+        <script src="Home%20Coors%20Light_files/RCe220c941077b45d4b5dfe2fe6fdbd66f-source.min.js" async=""></script><script type="text/javascript" charset="UTF-8" src="Home%20Coors%20Light_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="Home%20Coors%20Light_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="Home%20Coors%20Light_files/infowindow.js"></script></head>
+<body class="no-page-title path-frontpage page-node-type-mc-page node-title-home navbar-is-fixed-top has-glyphicons lang-en country-ca" style="padding-right: 17px;">
+<a href="#main-content" class="visually-hidden focusable skip-link">
+  Skip to main content
+</a>
+
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+              <header class="navbar navbar-default navbar-fixed-top sticky-transparent animate__animated" id="navbar" role="banner" style="">
+              <div class="container-fluid">
+            <div class="navbar-header">
+          <div class="region region-navigation">
+          <a class="logo navbar-btn pull-left" href="https://www.coorslight.ca/en-CA" title="Home" rel="home">
+      <img src="Home%20Coors%20Light_files/coorslight_logo.png" alt="Home">
+      <span class="logo-heading">Coors Light - </span>
+    </a>
+  
+  </div>
+
+                                    <button type="button" class="navbar-toggle navbar-slide">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+              </div>
+
+                            <div id="navbar-collapse-custom">
+            <div class="region region-navigation-collapsible">
+          <a class="logo navbar-btn pull-left" href="https://www.coorslight.ca/en-CA" title="Home" rel="home">
+      <img src="Home%20Coors%20Light_files/coorslight_logo.png" alt="Home">
+      <span class="logo-heading"> - </span>
+    </a>
+  <section id="block-mainnavigationcaen" class="block block-menu-item-fields block-menu-item-fieldsmain-navigation-ca-en clearfix">
+  
+    
+
+      
+  <div class="navbar-close"><i class="cli-close" aria-hidden="true"></i></div>
+            <ul class="content-draggable menu-slider slick-initialized slick-slider">
+                                  
+                              
+                              
+                              
+                              
+                              
+        <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);"><li class="slick-slide slick-current slick-active" style="width: 0px;" tabindex="0" data-slick-index="0" aria-hidden="false">
+                  <a href="https://www.coorslight.ca/en-CA/our-beer" aria-label="Link to Our Beer page" class="menu-link" target="" tabindex="0">
+            <img class="menu-image" src="Home%20Coors%20Light_files/CA-ourbeer.png">
+            <p class="menu-title">Our Beer</p>
+          </a>
+          <p class="menu-description">About Our Beer
+</p>
+                        
+        <p class="counter" aria-hidden="true">01</p>
+      </li><li class="slick-slide slick-active" style="width: 0px;" tabindex="0" data-slick-index="1" aria-hidden="false">
+                  <a href="https://www.coorslight.ca/en-CA/herestoamorechilltomorrow" aria-label="Link to SUSTAINABILITY page" class="menu-link" target="_self" tabindex="0">
+            <img class="menu-image" src="Home%20Coors%20Light_files/beercase_ENG.png">
+            <p class="menu-title">SUSTAINABILITY</p>
+          </a>
+          <p class="menu-description">Here’s to a More Chill Tomorrow
+</p>
+                        
+        <p class="counter" aria-hidden="true">02</p>
+      </li><li class="slick-slide slick-active" style="width: 0px;" tabindex="0" data-slick-index="2" aria-hidden="false">
+                  <a href="https://www.coorslight.ca/en-CA/promotions" aria-label="Link to Promotions page" class="menu-link" target="" tabindex="0">
+            <img class="menu-image" src="Home%20Coors%20Light_files/MadetoChill-Navigation-Desktop-373x341_op_0.jpg">
+            <p class="menu-title">Promotions</p>
+          </a>
+          <p class="menu-description">Chill With Exciting Coors Light Promotions
+</p>
+                        
+        <p class="counter" aria-hidden="true">03</p>
+      </li><li class="slick-slide" style="width: 0px;" tabindex="-1" data-slick-index="3" aria-hidden="true">
+                  <a href="https://www.coorslight.ca/en-CA/buybeeronline" aria-label="Link to Buy Online page" class="menu-link" target="" tabindex="-1">
+            <img class="menu-image" src="Home%20Coors%20Light_files/Ca-buyonline.png">
+            <p class="menu-title">Buy Online</p>
+          </a>
+          <p class="menu-description">Get Coors Light Delivered
+</p>
+                        
+        <p class="counter" aria-hidden="true">04</p>
+      </li><li class="slick-slide" style="width: 0px;" tabindex="-1" data-slick-index="4" aria-hidden="true">
+                  <a href="https://www.coorslight.ca/en-CA/more-from-coors" aria-label="Link to More from Coors page" class="menu-link" target="" tabindex="-1">
+            <img class="menu-image" src="Home%20Coors%20Light_files/morefromcoors_0.png">
+            <p class="menu-title">More from Coors</p>
+          </a>
+          <p class="menu-description">More of Coors For You To Enjoy
+</p>
+                        
+        <p class="counter" aria-hidden="true">05</p>
+      </li><li class="slick-slide" style="width: 0px;" tabindex="-1" data-slick-index="5" aria-hidden="true">
+                  <a href="https://hub.quartertofive.ca/collections/coors-light-brand" aria-label="Link to SHOP page" class="menu-link" target="_blank" tabindex="-1">
+            <img class="menu-image" src="Home%20Coors%20Light_files/CL-MerchShoot-0722-BPD_DROST--5L1A7745_edit.jpg">
+            <p class="menu-title">SHOP</p>
+          </a>
+          <p class="menu-description"> </p>
+                        
+        <p class="counter" aria-hidden="true">06</p>
+      </li></div></div></ul>
+  
+
+
+  </section>
+
+<section id="block-sociallinks-2" class="block block-block-content block-block-content24cf8a15-5a34-4a12-be0f-53e974377a85 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><ul><li><a aria-label="Coors Light Facebook Page" href="https://www.facebook.com/coorslightquebec" target="_blank"><i aria-hidden="true" class="fa fa-facebook">&nbsp;</i> </a></li>
+	<li><a aria-label="Coors Light Instagram Page" href="https://www.instagram.com/coorslightquebec" target="_blank"><i aria-hidden="true" class="fa fa-instagram">&nbsp;</i> </a></li>
+	<li><a aria-label="Coors Light Youtube Page" href="https://www.youtube.com/user/coorslightcanada" target="_blank"><i aria-hidden="true" class="fa fa-youtube-play">&nbsp;</i> </a></li>
+</ul></div>
+      
+  </section>
+
+<section id="block-copyright" class="block block-block-content block-block-content4b1648b7-fe26-4b0f-bf75-a550da9e5f1b clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p>©2023 Coors Brewing Company, Golden, CO. Mountain Cold. Made to Chill.</p>
+</div>
+      
+  </section>
+
+
+  </div>
+
+        </div>
+                    </div>
+          </header>
+  
+  <div role="main" class="main-container container-fluid js-quickedit-main-content" id="page">
+    <div class="row">
+
+            
+            
+                  <section class="col-sm-12">
+
+                
+                                      
+                  
+                          <a id="main-content"></a>
+            <div class="region region-content">
+      
+<article data-history-node-id="16" role="article" about="/en-CA/home" class="mc-page is-promoted full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+    
+      <div>  <div class="page-header paragraph paragraph--type--bp-simple paragraph--view-mode--default">
+          
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><h1 class="text-align-center">HOME</h1>
+</div>
+      
+      </div>
+</div>
+      <div>  <div id="home-intro-wrapper" class="home-intro-wrapper paragraph paragraph--type--bp-column-wrapper paragraph--view-mode--default">
+          
+      <div>  <div style="background-image: url(&quot;/sites/coorslight/files/2020-09/coorslight-mountains-white_0.jpg&quot;); position: sticky; top: 0px;" id="home-intro-bg-back" class="full-width-height home-intro-bg-back paragraph paragraph--type--mcp-full-screen-image-section paragraph--view-mode--default">
+          <img src="Home%20Coors%20Light_files/coorslight-mountains-white_0.jpg" alt="Coors Light mountains" class="image-desktop">
+            <div>
+      <div class="container mcp-parallax">
+                  
+      <div>  <div class="paragraph paragraph--type--bp-columns paragraph--view-mode--default">
+          <div class="paragraph--type--bp-columns__2col">
+    <div>  <div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default">
+          
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><p class="left">Cold as the rockies</p>
+
+<p class="right">Rockies: -5°C</p>
+
+<p class="down bubble hide">Everybody needs a moment of chill</p>
+</div>
+      
+      </div>
+</div>
+  </div><div class="paragraph--type--bp-columns__2col">
+    <div>
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-block paragraph--view-mode--default paragraph--id--826">
+  <div class="paragraph__column">
+        
+  </div>
+</div>
+</div>
+  </div>
+      </div>
+</div>
+  
+              </div>
+    </div>
+  </div>
+</div>
+      <div>  <div style="background-image: url(&quot;/sites/coorslight/files/2020-10/coorslight-mountains-main.jpg&quot;);" id="home-intro-bg-front" class="full-width-height home-intro-bg-front paragraph paragraph--type--mcp-full-screen-image-section paragraph--view-mode--default animate__animated">
+          <img src="Home%20Coors%20Light_files/coorslight-mountains-main.jpg" alt="Coors Light mountains" class="image-desktop">
+            <div>
+      <div class="container mcp-parallax">
+                  
+      <div>  <div class="paragraph paragraph--type--bp-columns paragraph--view-mode--default">
+          <div class="paragraph--type--bp-columns__2col">
+    <div>  <div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default animate__animated_second">
+          
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><img alt="Made to chill logo" class="home-logo align-center animate__animated animate__fadeIn" data-entity-type="file" data-entity-uuid="e897fe58-a9f3-4ce0-bd0d-70335c11333f" src="Home%20Coors%20Light_files/Made-to-chill_1.png" loading="lazy" width="267" height="140"></div>
+      
+      </div>
+</div>
+  </div><div class="paragraph--type--bp-columns__2col">
+    <div>  <div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default">
+          
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><img alt="Coors Light 355ml can" class="home-can ca align-center animate__animated" data-entity-type="file" data-entity-uuid="4bc2945c-15e3-4a3e-84c0-be5712eb2bcb" src="Home%20Coors%20Light_files/cl-2021-355ml-bil_2.png" loading="lazy" width="449" height="900"></div>
+      
+      </div>
+</div>
+  </div>
+      </div>
+</div>
+  
+              </div>
+    </div>
+  </div>
+</div>
+      <div>  <div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default">
+          
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><img alt="Made to chill logo" data-entity-type="file" data-entity-uuid="e897fe58-a9f3-4ce0-bd0d-70335c11333f" src="Home%20Coors%20Light_files/Made-to-chill_1.png" style="display:none" class="align-center" loading="lazy" width="267" height="140"><p>&nbsp;</p>
+<img alt="Coors Light 355ml can" class="home-can2 align-center" data-entity-type="file" data-entity-uuid="eb9876ea-dd84-4ad3-b514-867a054ec4cb" src="Home%20Coors%20Light_files/cl-2021-355ml-bil-01_1.png" style="display:none" loading="lazy" width="1313" height="1362"></div>
+      
+      </div>
+</div>
+      <div>  <div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default">
+          
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><h2 class="text-align-center intro-title-hidden animate__fadeIn animate__animated"><span>&nbsp;</span></h2>
+</div>
+      
+      </div>
+</div>
+  
+      </div>
+</div>
+      <div>  <div id="mountain-cold" class="mountain-cold paragraph paragraph--type--bp-column-wrapper paragraph--view-mode--default" style="opacity: 0;">
+          
+      <div>  <div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default">
+          
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><h4 class="title-with-image" style="opacity: 0;"><span>Mountain cold<br>
+refreshment</span> <img alt="COLD - Lagered, Filtered, Packaged" data-entity-type="file" data-entity-uuid="de6cc9fc-0a27-41a4-8c29-57f949499ae2" src="Home%20Coors%20Light_files/Cold.png" loading="lazy" width="900" height="138"></h4>
+</div>
+      
+      </div>
+</div>
+      <div>  <div class="bg-title paragraph--width--wide paragraph paragraph--type--bp-simple paragraph--view-mode--default">
+          
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><h2 class="text-align-center large"><span data-ani="fadeInRight" style="opacity: 0;">We started cold</span> <span data-ani="fadeInLeft" style="opacity: 0;">and then</span> <span data-ani="fadeInRight" style="opacity: 0;">got colder</span></h2>
+</div>
+      
+      </div>
+</div>
+      <div>  <div class="cl-mtn ca paragraph paragraph--type--bp-simple paragraph--view-mode--default">
+          
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><p class="pack cl-mtn-bg ca" style="opacity: 0;"><img alt="Coors Light 12 Pack x 355ml" data-entity-type="file" data-entity-uuid="a301d216-c83b-4066-b388-9a869663cd1a" src="Home%20Coors%20Light_files/cl-2021-12x355ml-en.png" loading="lazy" width="966" height="700"></p>
+
+<p class="can cl-mtn-front ca" style="opacity: 0;"><img alt="Coors Light 355ml can" data-entity-type="file" data-entity-uuid="741e7692-6260-47a1-b4a5-b1c1d849a6bb" src="Home%20Coors%20Light_files/cl-2021-355ml-bil-01_3.png" loading="lazy" width="680" height="1362"></p>
+
+<p class="bottle-can cl-mtn-left ca" style="opacity: 0;"><img alt="Coors Light aluminum bottle" data-entity-type="file" data-entity-uuid="761c603d-bf1e-4f38-a29c-1cf512f87799" src="Home%20Coors%20Light_files/cl-2021-473ml-bil-min_0.png" loading="lazy" width="330" height="700"></p>
+
+<p class="bottle cl-mtn-right ca" style="opacity: 0;"><img alt="Coors Light glass bottle" data-entity-type="file" data-entity-uuid="56c665aa-f238-4b5f-867e-bb0925506b46" src="Home%20Coors%20Light_files/cl-2021-341ml-bil_0.png" loading="lazy" width="240" height="700"></p>
+</div>
+      
+      </div>
+</div>
+      <div>  <div class="goto-link paragraph--width--narrow paragraph paragraph--type--bp-simple paragraph--view-mode--default">
+          
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><p class="text-align-center">When the mountains turn blue, it's as cold as the Rockies.</p>
+
+<p class="text-align-center"><a class="btn-main" href="https://www.coorslight.ca/en-CA/our-beer" title="Our Beer"><span>Our Beer</span></a></p>
+</div>
+      
+      </div>
+</div>
+  
+      </div>
+</div>
+      <div>  <div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default">
+          
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><h4>Made to chill</h4>
+</div>
+      
+      </div>
+</div>
+      <div>
+  <div data-slick="{&quot;slidesToShow&quot;:&quot;1&quot;,&quot;infinite&quot;:true,&quot;responsive&quot;:[{&quot;breakpoint&quot;:767,&quot;settings&quot;:{&quot;slidesToShow&quot;:&quot;1&quot;,&quot;centerPadding&quot;:&quot;20px&quot;}}]}" id="madetochill" class="paragraph paragraph--type--cl-video-slider paragraph--view-mode--default cl-slider">
+          <div class="slides slick-initialized slick-slider" data-slick="{&quot;slidesToShow&quot;:&quot;1&quot;,&quot;infinite&quot;:true,&quot;responsive&quot;:[{&quot;breakpoint&quot;:767,&quot;settings&quot;:{&quot;slidesToShow&quot;:&quot;1&quot;,&quot;centerPadding&quot;:&quot;20px&quot;}}]}">
+        
+      <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);"></div></div></div>
+      <div class="navigation"></div>
+      </div>
+</div>
+      <div>  <div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default">
+          
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><h2 class="text-align-center large"><b>KEEPING UP WITH<br>
+COORS LIGHT</b></h2>
+
+<p>&nbsp;</p>
+
+<h5 class="text-align-center">Instagram: @coorslightcanada</h5>
+
+<p>&nbsp;</p>
+
+<p class="text-align-center"><a class="btn-main" href="https://www.instagram.com/coorslightcanada/?hl=en"><span>Follow Us</span></a></p>
+
+<p class="text-align-center">&nbsp;</p>
+</div>
+      
+      </div>
+</div>
+      <div>
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-block paragraph--view-mode--default paragraph--id--21">
+  <div class="paragraph__column">
+        
+      <div class="field field--name-bp-block field--type-entity-reference field--label-hidden field--items">
+              <div class="field--item"><section id="block-mcinstagrammedia-canada" class="block block-mc-instagram-platform-apis block-mc-instagram-media clearfix">
+  
+    
+
+      
+
+<div class="instagram-feed content-draggable slick-initialized slick-slider">
+    <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);"></div></div></div>
+<div class="slider-controls">
+  <p>Explore</p>
+  <button class="custom-prev-arrow btn-round slick-arrow slick-hidden" aria-label="Previous" aria-disabled="true" tabindex="-1"><span><i aria-hidden="true" class="cli-arrow-prev"></i></span></button>
+  <button class="custom-next-arrow btn-round slick-arrow slick-hidden" aria-label="Next" aria-disabled="true" tabindex="-1"><span><i aria-hidden="true" class="cli-arrow-next"></i></span></button>
+</div>
+
+  </section>
+
+</div>
+          </div>
+  
+  </div>
+</div>
+</div>
+  
+  </div>
+
+</article>
+
+<section id="block-avmodal" class="block block-block-content block-block-contentbbf72bfd-efe0-484d-8591-440f54bcb8f2 clearfix">
+    <div class="modal in" id="avModal" tabindex="-1" role="dialog" aria-labelledby="avModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false" style="display: none;">
+        <div class="modal-dialog js-drupal-dialog" role="document">
+            <div class="modal-content ui-dialog">
+                <div class="modal-header ui-dialog-titlebar">
+                    
+                                        
+                </div>
+                <div class="modal-body ui-dialog-content">
+                                            
+      <div>  <div id="av-block" class="av-block paragraph paragraph--type--bp-column-wrapper paragraph--view-mode--default">
+          
+      <div>  <div id="av-up-bar" class="av-up-bar paragraph paragraph--type--bp-columns paragraph--view-mode--default">
+          <div class="paragraph--type--bp-columns__1col">
+    <div>
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-block paragraph--view-mode--default paragraph--id--671">
+  <div class="paragraph__column">
+        
+      <div class="field field--name-bp-block field--type-entity-reference field--label-hidden field--items">
+              <div class="field--item">      <a class="logo navbar-btn pull-left animate__fadeOut animate__animated" href="https://www.coorslight.ca/en-CA" title="Home" rel="home">
+      <img src="Home%20Coors%20Light_files/coorslight_logo.png" alt="Home">
+      <span class="logo-heading">Coors Light - </span>
+    </a>
+  </div>
+          </div>
+  
+  </div>
+</div>
+</div>
+  </div>
+      </div>
+</div>
+      <div>  <div style="background-image: url(&quot;/sites/coorslight/files/2021-04/coorslight-mountains-main.jpg&quot;);" id="av-form" class="full-width-height av-form paragraph paragraph--type--mcp-full-screen-image-section paragraph--view-mode--default">
+          <img src="Home%20Coors%20Light_files/coorslight-mountains-main_002.jpg" alt="Mountains" class="image-desktop">
+            <div>
+      <div class="container mcp-parallax animate__fadeOut animate__animated">
+                  
+      <div>  <div class="paragraph paragraph--type--bp-columns paragraph--view-mode--default">
+          <div class="paragraph--type--bp-columns__1col">
+    <div>  <div id="age-gate" class="age-gate paragraph paragraph--type--bp-column-wrapper paragraph--view-mode--default">
+          
+      <div>  <div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default">
+          
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><h1 class="text-align-center">Welcome to the rockies</h1>
+
+<p class="label-sel-country text-align-center">PLEASE SELECT YOUR COUNTRY AND ENTER YOUR DATE OF BIRTH</p>
+</div>
+      
+      </div>
+</div>
+      <div>
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-block paragraph--view-mode--default paragraph--id--686">
+  <div class="paragraph__column">
+        
+      <div class="field field--name-bp-block field--type-entity-reference field--label-hidden field--items">
+              <div class="field--item"><div id="block-ageverificationformblock">
+    
+        
+            
+
+    <form class="age-verification-form" data-drupal-selector="age-verification-form" action="/en-CA" method="post" id="age-verification-form" accept-charset="UTF-8" novalidate="novalidate">
+  <div class="av-sel-country"><div class="form-item js-form-item form-type-select js-form-type-select form-item-country js-form-item-country form-no-label form-group">
+  
+  
+  <label for="edit-country" class="aoda-labels av-country">Country</label><div class="select-wrapper"><select data-drupal-selector="edit-country" class="form-select form-control" id="edit-country" name="country" aria-invalid="false"><option value="AU">Australia
+	                    </option><option value="CA" selected="selected">Canada
+	                    </option><option value="IE">Ireland
+	                    </option><option value="MX">Mexico
+	                    </option><option value="PR">Puerto Rico
+	                    </option><option value="GB">United Kingdom
+	                    </option><option value="US">United States
+	                    </option></select></div>
+
+  
+  
+  </div>
+</div><div class="av-sel-country"><div class="form-item js-form-item form-type-select js-form-type-select form-item-regions js-form-item-regions form-no-label form-group">
+  
+  
+  <label for="edit-regions" class="aoda-labels av-regions">Province</label><div class="select-wrapper"><select data-drupal-selector="edit-regions" class="form-select form-control" id="edit-regions" name="regions" aria-invalid="false"><option value="AB">Alberta
+	                    </option><option value="BC">British Columbia
+	                    </option><option value="MB">Manitoba
+	                    </option><option value="NB">New Brunswick
+	                    </option><option value="NL">Newfoundland and Labrador
+	                    </option><option value="NT">Northwest Territories
+	                    </option><option value="NS">Nova Scotia
+	                    </option><option value="NU">Nunavut
+	                    </option><option value="ON" selected="selected">Ontario
+	                    </option><option value="PE">Prince Edward Island
+	                    </option><option value="QC">Quebec
+	                    </option><option value="SK">Saskatchewan
+	                    </option><option value="YT">Yukon Territory
+	                    </option></select></div>
+
+  
+  
+  </div>
+</div><p></p><div class="form-group form-inline form-item js-form-item form-wrapper js-form-wrapper panel panel-default" data-drupal-selector="edit-birthdate" id="edit-birthdate">
+
+    
+            
+    
+    <div class="panel-body">
+            <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-birthmonth js-form-item-birthmonth form-no-label form-group">
+  
+  
+  <label for="edit-birthmonth" class="aoda-labels av-birthmonth">Month</label><input class="form-control required digits form-text required form-control" placeholder="MM" minlength="1" maxlength="2" min="1" max="12" pattern="[0-9]*" tabindex="0" data-drupal-selector="edit-birthmonth" type="text" id="edit-birthmonth" name="birthmonth" value="12" size="2" required="required" aria-required="true" aria-invalid="false">
+
+  
+  
+  </div>
+<div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-birthday js-form-item-birthday form-no-label form-group">
+  
+  
+  <label for="edit-birthday" class="aoda-labels av-birthday">Day</label><input class="form-control required digits form-text required form-control" placeholder="DD" minlength="1" maxlength="2" min="1" max="31" pattern="[0-9]*" tabindex="0" data-drupal-selector="edit-birthday" type="text" id="edit-birthday" name="birthday" value="14" size="2" required="required" aria-required="true" aria-invalid="false">
+
+  
+  
+  </div>
+<div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-birthyear js-form-item-birthyear form-no-label form-group">
+  
+  
+  <label for="edit-birthyear" class="aoda-labels av-birthyear">Year</label><input class="form-control required digits birthdate maxallowed form-text" placeholder="YYYY" minlength="4" maxlength="4" min="1903" max="2023" pattern="[0-9]*" tabindex="0" data-drupal-selector="edit-birthyear" type="text" id="edit-birthyear" name="birthyear" value="1993" size="4" required="required" aria-required="true" aria-invalid="false">
+
+  
+  
+  </div>
+<span class="ageverification-form-error hidden"></span>
+          </div>
+  
+    
+</div>
+<div class="aoda-lang-label"><label for="edit-language" class="aoda-labels av-lang">Language</label></div><div id="edit-language"><div class="form-item js-form-item form-type-radio js-form-type-radio form-item-language js-form-item-language radio">
+  
+  
+  
+
+      <label for="edit-language-en-ca" class="control-label option"><input data-drupal-selector="edit-language-en-ca" class="form-radio" type="radio" id="edit-language-en-ca" name="language" value="en-CA" checked="checked">English</label>
+  
+  
+  </div>
+<div class="form-item js-form-item form-type-radio js-form-type-radio form-item-language js-form-item-language radio">
+  
+  
+  
+
+      <label for="edit-language-fr-ca" class="control-label option"><input data-drupal-selector="edit-language-fr-ca" class="form-radio" type="radio" id="edit-language-fr-ca" name="language" value="fr-CA">French</label>
+  
+  
+  </div>
+</div>
+<div class="form-item js-form-item form-wrapper js-form-wrapper panel panel-default" data-drupal-selector="edit-legal-copy" aria-describedby="edit-legal-copy--description" id="edit-legal-copy">
+
+    
+            
+    
+    <div class="panel-body">
+              <div id="edit-legal-copy--description" class="help-block">Intended for legal drinking age consumers only, see our <a href="http://molsoncoors.com/en/privacy" target="_blank"><span>Privacy Policy.</span></a></div>
+            
+          </div>
+  
+    
+</div>
+<div class="form-item js-form-item form-wrapper js-form-wrapper panel panel-default" data-drupal-selector="edit-actions" id="edit-actions">
+
+    
+            
+    
+    <div class="panel-body">
+            <button class="btn btn-ageverification btn-enter button js-form-submit form-submit btn" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="enter" value="SUBMIT" data-once="drupal-ajax" style="opacity: 0.33;"><span>SUBMIT</span></button>
+          </div>
+  
+    
+</div>
+<input id="redirect_url" data-drupal-selector="edit-redirect-url" type="hidden" name="redirect_url" value=""><input autocomplete="off" data-drupal-selector="form-u9uaizhzz3vmjcvfxzswiafczqs-rv82a8fc32njpq8" type="hidden" name="form_build_id" value="form-VKwF-GeEzgsp2VV5Ay6ys2ukHZsODJmFXhV-fTzmJ6c"><input data-drupal-selector="edit-age-verification-form" type="hidden" name="form_id" value="age_verification_form">
+</form>
+
+
+    </div>
+</div>
+          </div>
+  
+  </div>
+</div>
+</div>
+  
+      </div>
+</div>
+  </div>
+      </div>
+</div>
+  
+              </div>
+    </div>
+  </div>
+</div>
+      <div>  <div id="footer-av" class="footer-av paragraph paragraph--type--bp-columns paragraph--view-mode--default">
+          <div class="paragraph--type--bp-columns__2col">
+    <div>  <div id="footer-av-left" class="footer-av-left paragraph paragraph--type--bp-column-wrapper paragraph--view-mode--default">
+          
+      <div>
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-block paragraph--view-mode--default paragraph--id--696">
+  <div class="paragraph__column">
+        
+      <div class="field field--name-bp-block field--type-entity-reference field--label-hidden field--items">
+              <div class="field--item"><section id="block-sociallinks" class="block block-block-content block-block-content24cf8a15-5a34-4a12-be0f-53e974377a85 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><ul><li><a aria-label="Coors Light Facebook Page" href="https://www.facebook.com/coorslightquebec" target="_blank"><i aria-hidden="true" class="fa fa-facebook">&nbsp;</i> </a></li>
+	<li><a aria-label="Coors Light Instagram Page" href="https://www.instagram.com/coorslightquebec" target="_blank"><i aria-hidden="true" class="fa fa-instagram">&nbsp;</i> </a></li>
+	<li><a aria-label="Coors Light Youtube Page" href="https://www.youtube.com/user/coorslightcanada" target="_blank"><i aria-hidden="true" class="fa fa-youtube-play">&nbsp;</i> </a></li>
+</ul></div>
+      
+  </section>
+
+</div>
+              <div class="field--item"><section id="block-footerlegal" class="block block-block-content block-block-content8bc2ae01-3e00-4aac-9904-78f2da97b282 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><ul><li><a aria-label="Privacy Policy - External Link" class="underline arrow" href="https://www.molsoncoors.com/privacy-policy" target="_blank">Privacy Policy</a></li>
+	<li><a aria-label="Terms and conditions - External Link" class="underline arrow" href="https://www.molsoncoors.com/terms-and-conditions" target="_blank">Terms and conditions</a></li>
+	<li><a aria-label="Stay Updated Link" class="underline arrow" href="https://coorslight.ca/en-CA/stay-updated">Stay Updated</a></li>
+</ul><p class="text-legal"><span style="color:#282828;">Do not share with anyone under the legal drinking age. ©2023 Coors Brewing Company, Golden, CO</span></p>
+</div>
+      
+  </section>
+
+</div>
+          </div>
+  
+  </div>
+</div>
+</div>
+  
+      </div>
+</div>
+  </div><div class="paragraph--type--bp-columns__2col">
+    <div>  <div id="footer-av-right" class="footer-av-right paragraph paragraph--type--bp-column-wrapper paragraph--view-mode--default">
+          
+      <div>
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-block paragraph--view-mode--default paragraph--id--706">
+  <div class="paragraph__column">
+        
+      <div class="field field--name-bp-block field--type-entity-reference field--label-hidden field--items">
+              <div class="field--item"><section class="language-switcher-language-url block block-language block-language-blocklanguage-interface clearfix" id="block-languageswitcherinterfacetext--2" role="navigation">
+  
+    
+
+      <ul class="links"><li hreflang="en-CA" data-drupal-link-system-path="&lt;front&gt;" class="en-ca is-active"><a href="https://www.coorslight.ca/en-CA" class="language-link is-active" hreflang="en-CA" data-drupal-link-system-path="&lt;front&gt;">English</a></li><li hreflang="fr-CA" data-drupal-link-system-path="&lt;front&gt;" class="fr-ca"><a href="https://www.coorslight.ca/fr-CA" class="language-link" hreflang="fr-CA" data-drupal-link-system-path="&lt;front&gt;">French</a></li></ul>
+  </section>
+
+</div>
+              <div class="field--item"><section id="block-footer-gbgr" class="block block-block-content block-block-contentee91d511-3430-4305-84e7-d2e36fcb8a33 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p class="celebrate"><strong><a aria-label="External Link to Molson Coors - Responsibly refreshing" class="underline" href="https://www.molsoncoors.com/sustainability/responsibly-refreshing" target="_blank">CELEBRATE<br class="show-mobile">
+RESPONSIBLY<sup>®</sup></a></strong></p>
+</div>
+      
+  </section>
+
+</div>
+          </div>
+  
+  </div>
+</div>
+</div>
+  
+      </div>
+</div>
+  </div>
+      </div>
+</div>
+  
+      </div>
+</div>
+  
+                                    </div><div class="modal-footer ui-dialog-buttonpane" id="drupal-modal--footer" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  </div>
+
+              </section>
+
+                </div>
+  </div>
+
+<div class="footer" id="footer">
+  <div class="container-fluid">
+    <div class="row">
+                        <div class="col-sm-8">
+              <div class="region region-footer-1">
+    <section id="block-sociallinks--2" class="block block-block-content block-block-content24cf8a15-5a34-4a12-be0f-53e974377a85 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><ul><li><a aria-label="Coors Light Facebook Page" href="https://www.facebook.com/coorslightquebec" target="_blank"><i aria-hidden="true" class="fa fa-facebook">&nbsp;</i> </a></li>
+	<li><a aria-label="Coors Light Instagram Page" href="https://www.instagram.com/coorslightquebec" target="_blank"><i aria-hidden="true" class="fa fa-instagram">&nbsp;</i> </a></li>
+	<li><a aria-label="Coors Light Youtube Page" href="https://www.youtube.com/user/coorslightcanada" target="_blank"><i aria-hidden="true" class="fa fa-youtube-play">&nbsp;</i> </a></li>
+</ul></div>
+      
+  </section>
+
+<section id="block-footerlegal--2" class="block block-block-content block-block-content8bc2ae01-3e00-4aac-9904-78f2da97b282 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><ul><li><a aria-label="Privacy Policy - External Link" class="underline arrow" href="https://www.molsoncoors.com/privacy-policy" target="_blank">Privacy Policy</a></li>
+	<li><a aria-label="Terms and conditions - External Link" class="underline arrow" href="https://www.molsoncoors.com/terms-and-conditions" target="_blank">Terms and conditions</a></li>
+	<li><a aria-label="Stay Updated Link" class="underline arrow" href="https://coorslight.ca/en-CA/stay-updated">Stay Updated</a></li>
+</ul><p class="text-legal"><span style="color:#282828;">Do not share with anyone under the legal drinking age. ©2023 Coors Brewing Company, Golden, CO</span></p>
+</div>
+      
+  </section>
+
+
+  </div>
+
+          </div>
+                                      <div class="col-sm-4">
+              <div class="region region-footer-2">
+    <section class="language-switcher-language-url block block-language block-language-blocklanguage-interface clearfix" id="block-languageswitcherinterfacetext" role="navigation">
+  
+    
+
+      <ul class="links"><li hreflang="en-CA" data-drupal-link-system-path="&lt;front&gt;" class="en-ca is-active"><a href="https://www.coorslight.ca/en-CA" class="language-link is-active" hreflang="en-CA" data-drupal-link-system-path="&lt;front&gt;">English</a></li><li hreflang="fr-CA" data-drupal-link-system-path="&lt;front&gt;" class="fr-ca"><a href="https://www.coorslight.ca/fr-CA" class="language-link" hreflang="fr-CA" data-drupal-link-system-path="&lt;front&gt;">French</a></li></ul>
+  </section>
+
+<section id="block-footer-gbgr--2" class="block block-block-content block-block-contentee91d511-3430-4305-84e7-d2e36fcb8a33 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p class="celebrate"><strong><a aria-label="External Link to Molson Coors - Responsibly refreshing" class="underline" href="https://www.molsoncoors.com/sustainability/responsibly-refreshing" target="_blank">CELEBRATE<br class="show-mobile">
+RESPONSIBLY<sup>®</sup></a></strong></p>
+</div>
+      
+  </section>
+
+
+  </div>
+
+          </div>
+                                            <footer class="col-sm-12" role="contentinfo">
+              <div class="region region-footer">
+    <section id="block-popupbanner-2" class="block block-mc-popup block-mc-popup-block clearfix">
+  
+    
+
+      <div class="mc_popup_minimized right v-70 form-group"><a class="btn btn-primary" href="#">SUBSCRIBE</a>
+</div>
+<div class="mc_popup_container pos-small layout1 w-TA" style="margin-bottom: 52px;"><a href="#" class="btn btn-sm close btn-default"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></a><div class="mc_popup_copy"><div class="pop-columns">
+<div>
+<p class="img"><img alt="CL cans" data-entity-type="file" data-entity-uuid="4ff23170-e205-4a67-a475-0cc5c8029644" src="Home%20Coors%20Light_files/CL_CA_POP-UP_2_0.png"></p>
+</div>
+
+<div>
+<h1>STAY #CHILL</h1>
+
+<p>Sign up now to be the first to know about all things Coors Light.</p>
+
+<p class="subscribe-btn"><a class="subscribe-button button btn-main" href="https://www.coorslight.ca/en-CA/stay-updated">SUBSCRIBE</a></p>
+</div>
+</div>
+</div>
+<div class="mc_popup_subscribe"><input type="hidden" name="popup_redirect" value="/subscribe"><div class="form-group"><a href="https://www.coorslight.ca/subscribe" class="subscribe-button btn btn-primary  btn-lg hide">SUBSCRIBE</a></div>
+</div>
+<div class="mc_popup_disclaimer"></div>
+</div>
+
+  </section>
+
+
+  </div>
+
+          </footer>
+                  </div>
+  </div>
+</div>
+
+  </div>
+
+
+  <div id="cursor" class="cursor">
+    <span class="dot"></span>
+    <div class="drag">DRAG</div>
+  </div>
+  <div id="consent_blackbar"><style>.truste-banner {    margin: 0 auto;}.truste-messageColumn {    font-family: "Helvetica Neue", Arial, sans-serif;    ;    font-size: 12px;    color: #fff;    margin: 15px 0px 15px 5px;    float: left;}.truste-buttonsColumn {    float: right;    margin: 10px 5px 10px 0px;}.truste-button1,.truste-button2,.truste-button3 {    font-family: "Helvetica Neue", Arial, sans-serif;    ;    background: #002147;    color: #fff;    font-size: 14px;    /*width: 170px;*/    height: auto;    cursor: pointer;    margin-left: 5px;    padding: 5px;    border: 1px solid #ffffff;}/*   .truste-button3  {     font-family:  "Helvetica Neue",Arial,sans-serif;;     font-size: 12px;     width: 140px;     height: auto;     cursor: pointer;     margin-left: 5px;     padding:5px;     color: #00559c;     border: none;     background-color: transparent;     outline: none; } */.hidedesktop {    display: none;    font-family: "Helvetica Neue", Arial, sans-serif;    ;    font-size: 14px;    cursor: pointer;    color: #00559c;    text-decoration: none;}.truste-cookie-link {    font-family: "Helvetica Neue", Arial, sans-serif;    ;    font-size: 12px;    cursor: pointer;    color: #fff;    text-decoration: underline;    display: inline-block;    padding: 5px;}.truste-cookie-link:hover {    color: #bdbdbd;}/* MEDIA QUERIES *//*@media screen and (max-width: 856px) and (min-width: 771px){    .truste-banner {        margin: 0 10px;    }    .truste-messageColumn,    .truste-buttonsColumn {        float: left;        width: 100%;    }    .truste-messageColumn {        margin: 15px 0px 10px 0px;    }    .truste-buttonsColumn {        margin: 10px 0px 10px 0px;    }    .truste-button1,    .truste-button2,    .truste-button3 {        margin-top: 0px;        margin-left: 0px;        width: 49%;        float: left;    }    .truste-button2 {        margin-right: 5px;    }    /*     .truste-button3 {     display: none;   }     .hidedesktop {        display: inline;        font-size: 14px;        cursor: pointer;        color: #00559c;        text-decoration: none;    }}*/@media screen and (max-width: 845px) {    .truste-banner {        margin: 0 10px;    }    .truste-messageColumn,    .truste-buttonsColumn {        float: left;        width: 100%;    }    .truste-messageColumn {        margin: 15px 0px 10px 0px;    }    .truste-buttonsColumn {        float: right;        margin: 10px 0px 10px 0px;        text-align: center;    }    .truste-button1,    .truste-button2,    .truste-button3 {        margin-top: 5px;        margin-left: 0px;        width: 100%;    }    /*     .truste-button3 {     display: none;   } */    .hidedesktop {        display: inline;        font-size: 14px;        cursor: pointer;        color: #00559c;        text-decoration: none;    } }</style><div id="truste-consent-track" style="background-color: rgb(0, 33, 71); opacity: 1; display: block;">  <div id="truste-consent-content" class="truste-banner" style="overflow: hidden; max-width: 1200px; max-height:auto;">        <div id="truste-consent-text" class="truste-messageColumn">By using this site, you agree with our use of cookies.       </div>      <div id="truste-consent-buttons" class="truste-buttonsColumn">              <button id="truste-consent-button" type="button" class="truste-button2" tabindex="0">I consent to cookies </button>         <button id="truste-consent-required" type="button" class="truste-button3" tabindex="0">Decline All</button>        <button id="truste-show-consent" type="button" class="truste-button1" tabindex="0" aria-haspopup="true">Want to know more?</button>           	<a href="https://www.molsoncoors.com/privacy-policy" target="_blank" id="truste-cookie-button" style="cursor:pointer; text-decoration: underline;" class="truste-cookie-link">Privacy Policy</a>      </div>         </div>    </div></div>
+  <div id="teconsent" consent="undefined" aria-label="Open Cookie Preferences Modal" role="complementary"><script src="Home%20Coors%20Light_files/v1.7-164" async="async" crossorigin="" importance="high"></script><a role="button" id="icon-id0271609891231258" tabindex="0" aria-haspopup="true" aria-label="Cookie Preferences" lang="en"><img class="truste_border_none truste_cursor_pointer" src="Home%20Coors%20Light_files/cookiepref.png" alt="Cookie Preferences"></a><script src="Home%20Coors%20Light_files/notice_002" async="async" crossorigin="" importance="high"></script></div>
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"en-CA\/","currentPath":"node\/16","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en-CA"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"asset_injector\/css\/mic_popup,asset_injector\/css\/mic_video,asset_injector\/css\/nyc,asset_injector\/css\/promo_ie_your_chance_to_win,asset_injector\/css\/shop_banner,asset_injector\/css\/styles_pr_210915,bootstrap\/popover,bootstrap\/tooltip,bootstrap_paragraphs\/bootstrap-paragraphs,coorslight\/cl-video-slider,coorslight\/global-scripts,coorslight\/global-styling,coorslight\/mc-contact-form,coorslight\/mc-instagram-carousel,coorslight\/mc-pricespider,coorslight\/mc-subscribe-form,coorslight\/mcp-slider-section,coorslight\/slick-carousel,core\/drupal.dialog.ajax,core\/internal.jquery.form,mc_av_modal\/form.block,mc_av_modal\/init,mc_av_multilingual\/country_validation,mc_av_multilingual\/maxmind,mc_locator_client\/province_cookie,mc_multiform\/multiform_mobiscroll,mc_popup\/mc_popup,mctheme\/global-scripts,mctheme\/global-styling,mctheme\/mcp-full-screen-image-section,mctheme\/user-login,paragraphs\/drupal.paragraphs.unpublished,productlocator\/productlocator,ps_shoppable_media\/price_spider_cdn,ps_shoppable_media\/price_spider_script,ps_where_to_buy\/price_spider_cdn,ps_where_to_buy\/price_spider_script,ps_where_to_buy\/price_spider_style,system\/base","theme":"coorslight","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/en-CA\/home?ajax_form=1":true},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"av_modal":true,"ajax":{"edit-submit":{"callback":"::submitAjaxForm","event":"oncustomsubmit","progress":{"type":"none"},"url":"\/en-CA\/home?ajax_form=1","dialogType":"ajax","submit":{"_triggering_element_name":"enter","_triggering_element_value":"SUBMIT"}}},"ageverification":{"avCheckToken":"https:\/\/avbypass2.millercoors.com\/av\/check","avUrl":"\/en-CA\/\/","avFailUrl":"\/en-CA\/av\/fail","avZipcodeFailUrl":"\/","avBypassUrls":["\/av","\/av\/fail","\/legal\/privacy","\/legal\/terms","\/sitemap.xml","\/en-US\/contact","\/contact","\/en-US\/shop-subscribe-iframe","\/sitemap-au\/sitemap.xml","\/sitemap-ie\/sitemap.xml","\/sitemap-ca\/sitemap.xml","\/sitemap-au","\/sitemap-ie","\/sitemap-ca","\/en-US\/championsice"],"avEnableFacebookLogin":"","avFacebookAppId":"","avFacebookApiVersion":"","avSearchUserAgents":["Googlebot","Googlebot-Mobile","Googlebot-Image","bingbot","msnbot","slurp","Yahoo! Slurp","facebookexternalhit","Twitterbot"],"avFailRedirectURL":"","enableAVFailRedirect":0,"enableMobileAVFailRedirect":0,"avMobileFailRedirectURL":"","user":"anonymous","avBypassScriptTokenChecker":0,"enableAvStoreProvince":0,"avBypassTest":0,"enableAvStoreDob":0,"avZipcodeEnable":0,"maxmindBypassUrls":["\/bravesqr","\/californiaqr","\/en-US\/california","\/en-US\/braves","\/en-US\/unleashthechill","\/en-US\/kraken","\/en-US\/contact","\/en-US\/pacnw","\/en-US\/beerman","\/en-CA","\/fr-CA","\/en-CA\/coors-organic","\/fr-CA\/coors-organic","\/en-IE","\/en-GB","\/en-IE\/coorsgreatbiggetaway","\/en-IE\/get-kitted-out-with-coors","\/en-CA\/sustainability","\/fr-CA\/durabilite","\/en-US\/summer","\/sitemap.xml","\/sitemap-au\/sitemap.xml","\/sitemap-ie\/sitemap.xml","\/sitemap-ca\/sitemap.xml","\/en-AU","\/en-US\/Braves2022","\/en-GB\/winwithcoors","\/Braves2022","\/unleashthechill","\/kraken"],"avUrlSetting":"\/","availableLanguages":{"en":{"en":{"language":"English","path_prefix":"en","default":1}},"AU":{"en-AU":{"language":"English","path_prefix":"en-AU"}},"CA":{"en-CA":{"language":"English","path_prefix":"en-CA"},"fr-CA":{"language":"French","path_prefix":"fr-CA"}},"IE":{"en-IE":{"language":"English (Ireland)","path_prefix":"en-IE"}},"MX":{"es-MX":{"language":"Spanish","path_prefix":"es-MX"}},"PR":{"es-PR":{"language":"Spanish","path_prefix":"es-PR"}},"GB":{"en-GB":{"language":"English (GB)","path_prefix":"en-GB"}},"US":{"en-US":{"language":"English","path_prefix":"en-US"}}}},"productlocator":{"resultsPerPage":"5","displayResults":0,"displayResultsButton":0,"displayTotalResults":0,"latcoord":"-27.4689548","longcoord":"153.0342287","countryrest":"AU","serviceUrl":"https:\/\/locator.millercoorsonline.com\/locator\/locations","mapPin":"https:\/\/www.coorslight.ca\/sites\/coorslight\/files\/locatorform\/Coors_Logo_Pin.png","mapPinSelected":"https:\/\/www.coorslight.ca\/sites\/coorslight\/files\/locatorform\/Coors_Logo_Pin_0.png","locatorMapStyle":"[]","locatorMapCustomFormat":""},"user":{"uid":0,"permissionsHash":"3577848f5dbbff17bc5bfff3ba4852e7907d9a818790b863da9076ff150a9f28"}}</script>
+<script src="Home%20Coors%20Light_files/js_0i_P3tFh1gfPDKkGtI1Zp6E65LR8RNMBPUdVtf9nm98.js"></script>
+<script src="Home%20Coors%20Light_files/js"></script>
+<script src="Home%20Coors%20Light_files/js_XRku5Si3FRz8ZShv9UxMO9Vczkhgv_X4w-qA93d6O7o.js"></script>
+<script src="Home%20Coors%20Light_files/geoip2.js"></script>
+<script src="Home%20Coors%20Light_files/js_45J_VWZaj8Sx8kB4OgAjfelih7QaDzlpoPJVurKHxdo.js"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"173f877119","applicationID":"995834094","transactionName":"NFwEY0FWWEIHAhZcWQ0WJ1RHXllfSREDUlM8WgdUW1I=","queueTime":16,"applicationTime":19,"atts":"GBsHFQlMS0w=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+
+<div class="modal-backdrop in" style="display: none;"></div><div id="drupal-modal" class="ui-front" style="display: none;"></div><script>
+var _STATE = {};
+function runOnce() {
+    if (!_STATE.hasRunOnce && window.truste && truste.eu && truste.eu.prefclose) { 
+        console.log("doing run once");
+        _STATE.oldValue = truste.eu.bindMap.prefCookie && truste.eu.bindMap.prefCookie.split(':')[0].replace(/[^\d.]/g, '-');
+        _STATE.oldMethod = truste.eu.prefclose;
+        truste.eu.prefclose = function() {
+            _STATE.oldMethod();
+            if (truste.eu.bindMap.prefCookie && truste.eu.bindMap.prefCookie.split(':')[0].replace(/[^\d.]/g, '-') !== _STATE.oldValue) {
+                setTimeout(function() { window.location.reload(); }, 20);
+            }
+        }
+        _STATE.hasRunOnce = true;
+        _STATE.i && clearInterval(_STATE.i);
+    }
+}
+_STATE.i = setInterval(runOnce, 10);
+</script></body></html>

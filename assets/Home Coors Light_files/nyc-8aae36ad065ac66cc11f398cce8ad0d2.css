@@ -1,0 +1,5 @@
+.field--name-field-media-video iframe {
+  width: 100%;
+  height: auto;
+  min-height: calc(80vh);
+}
