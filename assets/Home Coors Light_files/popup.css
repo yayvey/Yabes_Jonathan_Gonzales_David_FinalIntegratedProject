@@ -1,0 +1,146 @@
+.block.block-mc-popup .form-group {
+  margin-bottom:0;
+}
+.block.block-mc-popup .mc_popup_minimized{
+  position: fixed;
+  right: 1em;
+  bottom: 0;
+  z-index: 1000000000;
+}
+.block.block-mc-popup .w-TA .mc_popup_minimized{
+  bottom: 50px;
+}
+.block.block-mc-popup .mc_popup_minimized.right{
+  right: 0;
+  top: 60%;
+  bottom: auto;
+  transform: rotate(-90deg);
+  transform-origin: bottom right;
+}
+.block.block-mc-popup .mc_popup_minimized.right.v-0{
+  top: 0;
+}
+.block.block-mc-popup .mc_popup_minimized.right.v-10{
+  top: 10%;
+}
+.block.block-mc-popup .mc_popup_minimized.right.v-20{
+  top: 20%;
+}
+.block.block-mc-popup .mc_popup_minimized.right.v-30{
+  top: 30%;
+}
+.block.block-mc-popup .mc_popup_minimized.right.v-40{
+  top: 40%;
+}
+.block.block-mc-popup .mc_popup_minimized.right.v-50{
+  top: 50%;
+}
+.block.block-mc-popup .mc_popup_minimized.right.v-60{
+  top: 60%;
+}
+.block.block-mc-popup .mc_popup_minimized.right.v-70{
+  top: 70%;
+}
+.block.block-mc-popup .mc_popup_minimized.right.v-80{
+  top: 80%;
+}
+.block.block-mc-popup .mc_popup_minimized.right.v-90{
+  top: 90%;
+}
+.block.block-mc-popup .mc_popup_minimized .btn{
+  border-radius: 6px 6px 0 0;
+  padding: 0.6em 2em;
+}
+.block.block-mc-popup .mc_popup_container {
+  background-color: white;
+  position: fixed;
+  max-height: 90vh;
+  z-index: 100000000;
+  transition: all 600ms ease;
+  padding: 0 20px 10px 20px;
+  -webkit-box-shadow: 0 0 11px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 0 11px 1px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.block.block-mc-popup .mc_popup_container.pos-fulltop {
+  top: -100vh;
+  left: 0;
+  width: 100%;
+}
+.block.block-mc-popup .mc_popup_container.pos-fullbottom {
+  bottom: -100vh;
+  left: 0;
+  width: 100%;
+}
+.block.block-mc-popup .mc_popup_container.pos-small {
+  bottom: -100vh;
+  right: 0;
+  width: 100%;
+}
+@media (min-width: 676px){
+  .block.block-mc-popup .mc_popup_container.pos-small {
+    bottom: -100vh;
+    right: 0;
+    width: 50%;
+  }
+}
+/*.block.block-mc-popup .mc_popup_container.pos-fullbottom.min, .block.block-mc-popup .mc_popup_container.pos-fullbottom.min.w-TA,.block.block-mc-popup .mc_popup_container.pos-small.min, .block.block-mc-popup .mc_popup_container.pos-small.min.w-TA {
+  bottom: -100vh!important;
+}
+.block.block-mc-popup .mc_popup_container.pos-fulltop.min{
+  top: -100vh!important;
+}*/
+.block.block-mc-popup .mc_popup_container.pos-fullbottom.open, .block.block-mc-popup .mc_popup_container.pos-fullbottom.open.w-TA, .block.block-mc-popup .mc_popup_container.pos-small.open, .block.block-mc-popup .mc_popup_container.pos-small.open.w-TA {
+  bottom: 0!important;
+}
+.block.block-mc-popup .mc_popup_container.pos-fulltop.open{
+  top: 0!important;
+}
+.block.block-mc-popup .mc_popup_container.w-TA {
+  /*bottom: 50px; */
+}
+.block.block-mc-popup .mc_popup_container .mc_popup_image img {
+  max-height: 150px;
+}
+.block.block-mc-popup .mc_popup_container img {
+  max-width: 100%;
+  height:auto;
+}
+.block.block-mc-popup .mc_popup_container p {
+  color: black;
+}
+.block.block-mc-popup .mc_popup_container .close {
+  margin-right: -20px;
+  font-size: 18px;
+  opacity: .4;
+}
+
+.block.block-mc-popup .mc_popup_container.layout1 .mc_popup_image, .block.block-mc-popup .mc_popup_container.layout2 .mc_popup_image {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 5px;
+}
+.block.block-mc-popup .mc_popup_container.layout1 .mc_popup_copy, .block.block-mc-popup .mc_popup_container.layout2 .mc_popup_copy {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 5px;
+  text-align: left;
+}
+
+.block.block-mc-popup .mc_popup_container.layout3 .mc_popup_image {
+  text-align: center;
+}
+.block.block-mc-popup .mc_popup_container.layout3 .mc_popup_image img {
+  display: inline-block;
+}
+.block.block-mc-popup .mc_popup_container .mc_popup_disclaimer {
+  margin: 10px 15px;
+}
+.block.block-mc-popup .mc_popup_container .mc_popup_subscribe {
+  margin-bottom: 15px;
+}
+.block.block-mc-popup .mc_popup_container .mc_popup_subscribe > div {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px;
+}

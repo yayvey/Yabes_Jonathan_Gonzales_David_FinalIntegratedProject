@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Contact Page - Billy Beer Rebrand</title>
+</head>
+
+<body>
+    <h1 class="hidden">Contact Page - Billy Beer Rebrand</h1>
+    <!-- DAVID EDIT: Deleted Mobile, Tablet and Desktop classes, incorporated the classes into 1 line per content to not repeat code 3 times.
+    Doing it like this will make the code cleaner, and mitigate all the duplicate id validation errors index.html originally had.
+    The id's forced to be called as classes can be reverted back to id's since we don't have to id the same content multiple times.
+
+    I will do the same for the index.html in due time. For now, attempting to compress the code in index.html broke it too much for me to try to finish before the deadline.-->
+    <header> <!--class="spacer"-->
+        <h2 class="hidden">Header</h2>
+        <!--class="grid-con"-->
+        <section class= "mobile-menu">
+            <div class = "logo"> <!--class="col-span-1 m-col-span-2 l-col-span-1 logo"-->
+                <a href="index.html"><img src="images/billy_logo2.png" alt="Logo"></a>
+            </div>
+    
+            <button class="close-button" onclick="hideHeader()">X</button>
+    
+            <nav class="mobile-nav"> <!--class="col-start-4 m-col-span-9 l-col-span-9"-->
+                <ul>
+                    <li><a href="index.html" class="nav-link" alt="Home Page">Home</a>
+                    <li><a href="about.html" class="nav-link" alt="About Page">About Us</a>
+                    <li><a href="contact.html" class="nav-link" alt="Contact Page">Contact Us</a>
+                </ul>
+            </nav>
+    
+            <div class="social-nav-mobile"> <!--class="col-start-4 m-col-span-9 l-col-span-9"-->
+                <ul>
+                    <a href="#"><img src="images/icon-facebook.png" class="socials" alt="Facebook"></a>
+                    <a href="#"><img src="images/icon-instagram.png" class="socials" alt="Instagram"></a>
+                    <a href="#"><img src="images/icon-youtube.png" class="socials" alt="Youtube"></a>
+                </ul>
+            </div>
+        </section>
+
+        <section class="desktop-menu">
+            
+            <nav class="desktop-nav">
+                
+                <div class="desktop-logo">
+                    <a href="index.html"><img src="images/billy_logo2.png" alt="Logo"></a>
+                </div>
+
+                
+                        
+                <ul class = "desktop-nav-list">
+                    <li><a href="index.html" class="desktop-nav-link">Home</a>
+                    <li><a href="about.html" class="desktop-nav-link">About Us</a>
+                    <li><a href="contact.html" class="desktop-nav-link">Contact Us</a>
+                </ul>
+                            
+                
+
+            </nav>
+
+            <div class="desktop-social-nav">
+                <ul>
+                    <a href="#"><img src="images/icon-facebook.png" class="socials" alt="Facebook"></a>
+                    <a href="#"><img src="images/icon-instagram.png" class="socials" alt="Instagram"></a>
+                    <a href="#"><img src="images/icon-youtube.png" class="socials" alt="Youtube"></a>
+                </ul>
+            </div>
+        </section>
+
+    </header>
+
+    <section>
+        <button class="open-button" onclick="showHeader()"><img src="images/hamburger-menu.jpg" alt="Navigation"></button>
+    </section>
+
+    <main class="spacer">
+
+        <section>
+            <div id="letstalk1">Let's have a talk!</div>
+            <p>Our door is always open <br> for a good cup of coffee!</p>
+        </section>
+
+        <section class="grid-con"> 
+            <div class="col-start-1 col-end-5 m-col-start-4 m-col-end-10 l-col-start-5 l-col-end-9">
+                <form id="contact" action="#" method="post"> <!--DAVID EDIT: Added a "#" in action="". Empty values cause validation errors. Useless values don't. -->
+
+                    <fieldset>
+                        <input placeholder="Your name" type="text" tabindex="1" required>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                    </fieldset>
+                    <fieldset> <!-- DAVID EDIT: Turned phone and website optional, because some people A) may not have a website B) may not be comfortable with sharing phone number-->
+                        <input placeholder="Your Phone Number (Optional) " type="tel" tabindex="3">
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Your Web Site (Optional)" type="url" tabindex="4">
+                    </fieldset>
+                    <fieldset>
+                        <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button id="submit" type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </div> 
+        </section>
+    </main>
+
+    <footer>
+        <h2 class="hidden">Footer</h2>
+        <div class="grid-con" style="background-color: #256A3F;">
+            <div class="col-span-4 m-col-span-3 l-col-span-3">
+                <h2>Contact</h2>
+                <p>130 Dundas St</p>
+                <p>London, Ontario</p>
+                <p>+1 (702) 519 1234</p>
+                <p>hello@billybeer.com</p>
+            </div>
+            <div class="col-span-4 m-col-start-5 m-col-end-13 newsletter">
+                <h2 class="footer-heading">Sign up for our Newsletter</h2>
+                <p class="footer-description">Sign up to receive email from us on news, campaigns, and events.</p><br>
+                <input type="email" name="email" placeholder="user@example.com">
+                <button>Subscribe</button><br><br><br><br>
+            </div>  
+        </div>
+
+    </footer>
+            
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+@media (min-width: 768px) { 
+  body.page-buy-online.country-pr #hero-title > div:first-child .hero-title h2 { 
+  line-height: 110px; 
+  }
+}

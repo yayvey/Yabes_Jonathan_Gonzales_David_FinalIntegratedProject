@@ -1,0 +1,3 @@
+@media (min-width: 768px) {
+    .new-threads .container [class^=paragraph--type--bp-columns__] { max-width: unset; }
+  }

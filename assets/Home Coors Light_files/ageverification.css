@@ -1,0 +1,13 @@
+.form-inline .form-control,
+.form-inline .form-item {
+  display: inline-block;
+}
+
+#age-verification-form #edit-actions.js-form-wrapper[data-drupal-selector="edit-actions"] {
+  color: rgba(0,0,0,0);
+}
+
+/*Instagram browser fix*/
+body.instagram-browser .mbsc-popup.mbsc-popup-bottom {
+   bottom: 25vh;
+}
