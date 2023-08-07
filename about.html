@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>About Us - Billy Beer Rebrand</title>
+</head>
+
+<body>
+    <h1 class="hidden">About Me - Billy Beer Rebrand</h1>
+    <!-- DAVID EDIT: Deleted Mobile, Tablet and Desktop classes, incorporated the classes into 1 line per content to not repeat code 3 times.
+    Doing it like this will make the code cleaner, and mitigate all the duplicate id validation errors index.html originally had.
+    The id's forced to be called as classes can be reverted back to id's since we don't have to id the same content multiple times.
+
+    I will do the same for the index.html in due time. For now, attempting to compress the code in index.html broke it too much for me to try to finish before the deadline.-->
+    <header> <!--class="spacer"-->
+        <h2 class="hidden">Header</h2>
+        <!--class="grid-con"-->
+        <section class= "mobile-menu">
+            <h3 class="hidden">Mobile Menu</h3>
+            <div class = "logo"> <!--class="col-span-1 m-col-span-2 l-col-span-1 logo"-->
+                <a href="index.html"><img src="images/billy_logo2.png" alt="Logo"></a>
+            </div>
+    
+            <button class="close-button" onclick="hideHeader()">X</button>
+    
+            <nav class="mobile-nav"> <!--class="col-start-4 m-col-span-9 l-col-span-9"-->
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a>
+                    <li><a href="about.html" class="nav-link">About Us</a>
+                    <li><a href="contact.html" class="nav-link">Contact Us</a>
+                </ul>
+            </nav>
+    
+            <div class="social-nav-mobile"> <!--class="col-start-4 m-col-span-9 l-col-span-9"-->
+                
+                <a href="#"><img src="images/icon-facebook.png" class="socials" alt="Facebook"></a>
+                <a href="#"><img src="images/icon-instagram.png" class="socials" alt="Instagram"></a>
+                <a href="#"><img src="images/icon-youtube.png" class="socials" alt="Youtube"></a>
+                
+            </div>
+        </section>
+
+        <section class="desktop-menu">
+            <h4 class="hidden">Desktop Menu</h4>
+            
+            <nav class="desktop-nav">
+                
+                <div class="desktop-logo">
+                    <a href="index.html"><img src="images/billy_logo2.png" alt="Logo"></a>
+                </div>
+
+                
+                        
+                <ul class = "desktop-nav-list">
+                    <li><a href="index.html" class="desktop-nav-link">Home</a>
+                    <li><a href="about.html" class="desktop-nav-link">About Us</a>
+                    <li><a href="contact.html" class="desktop-nav-link">Contact Us</a>
+                </ul>
+                            
+                
+
+            </nav>
+
+            <div class="desktop-social-nav">
+                
+                <a href="#"><img src="images/icon-facebook.png" class="socials" alt="Facebook"></a>
+                <a href="#"><img src="images/icon-instagram.png" class="socials" alt="Instagram"></a>
+                <a href="#"><img src="images/icon-youtube.png" class="socials" alt="Youtube"></a>
+                
+            </div>
+        </section>
+
+    </header>
+
+    <section>
+        <h4 class="hidden">Show Header</h4>
+        <button class="open-button" onclick="showHeader()"><img src="images/hamburger-menu.jpg" alt="Navigation"></button>
+    </section>
+
+
+    <main>
+
+        <div class="grid-con">
+            <div id="about-hero" class="col-span-4 m-col-span-12" style="background-color:#3b3b3b;">
+                <img src="images/about-hero.png" alt="About Page Hero Image">
+            </div>
+        </div>
+
+        <section id="founders" style="background-color:#3b3b3b;">
+            <div class="grid-con">
+                <div style="background-color:#3b3b3b;" class="col-span-4 m-col-span-12">
+                    <img src="images/about-man2.jpg" alt="Founder 2">
+                    <img src="images/about-man1.jpg" alt="Founder 1">
+                </div>
+                
+                <div class="col-span-4 m-col-span-12">
+
+                    <h3>Visionaries Behind Billy Beer</h3>
+                    <p class="text">
+                        John Smith and Steve Johnson, the dynamic duo and co-founders of Billy Beer, share an unwavering passion for crafting exceptional 
+                        brews that bring people together. <span class="moreText">
+                        John’s deep-rooted knowledge of brewing techniques, acquired through generations of family tradition, 
+                        combines seamlessly with Emily’s creative flair and business acumen. Together, they embarked on a journey to revive the spirit of camaraderie 
+                        and celebration through the art of brewing. Their commitment to quality, sustainability, and community partnerships has guided Billy Beer to become 
+                        a renowned brand that stands as a testament to their shared vision. With John’s dedication to craftsmanship and Emily’s innovative mindset, 
+                        they continue to shape the future of Billy Beer, leaving an indelible mark on the world of brewing.</span>
+                    </p>
+
+                    <button class="read-more-btn">Read More</button>
+                </div>
+
+            </div>
+            
+            <section id="gallery">
+                <h4 class>Gallery</h4>
+                <div style="background-color:#3b3b3b;" class="col-span-4 m-col-span-12 l-col-start-4 l-col-end-10 mobile-gallery">
+                    <button id="switchButton"><img src="images/switch.png" id="switch" alt="Switch Image Button" draggable="false"></button>
+                        
+                    <!-- Container displaying the many iterations of backgrounds. "#" value because images are called in javascript.-->
+                    <section class="imageContainer">
+                        <h4 class="hidden"> Image Container</h4>
+                        <img id="displayedImage" src="#" alt="Image" draggable="false">
+                    </section>
+                </div>
+    
+                <div style="background-color:#3b3b3b;" class="col-span-4 m-col-span-12 l-col-start-4 l-col-end-10 desktop-gallery">
+                    <img src="images/about-img1.jpg" alt="Image of Row of Kegs">
+                    <img src="images/about-img2.jpg" alt="Image of Beer Master and Student">
+                </div>
+    
+                <div style="background-color:#3b3b3b;" class="col-span-4 m-col-span-12 l-col-start-4 l-col-end-10 desktop-gallery">
+                    
+                    <img src="images/about-img3.jpg" alt="Image of Folk drinking">
+                    <img src="images/about-img4.jpg" alt="Image of Distillery">
+                </div>
+            </section>
+
+
+                
+
+            <div id="traditional-techniques" style="background-color:#3b3b3b;" class="col-span-4 m-col-start-2 m-col-end-9">
+                <h3>Traditional Techniques</h3>
+                <p class="text">
+                    From selecting the finest, locally-sourced ingredients to meticulous brewing processes overseen by our master brewers, we leave no stone unturned in our 
+                    pursuit of perfection.Our state-of-the-art facilities and cutting-edge equipment allow us to uphold the time-honored methods while embracing modern advancements 
+                    to achieve consistent, exceptional quality. <br><br>The secret lies in the art of balancing flavors and aromas, crafting distinct brews that cater to a diverse audience of 
+                    beer enthusiasts. Our dedication to sustainability and eco-friendly practices further enhances the brewing process, ensuring that every Billy Beer is not only a 
+                    testament to our passion but also a celebration of nature’s bounties. At Billy Beer, our techniques are an ode to the craft, a tribute to the past, 
+                    and a promise to deliver unparalleled taste in every bottle.
+                </p>
+            </div>
+
+        </section>
+
+        <section id="client-exp">
+            <h3>Client's Experiences</h3>
+            <section class="grid-con">
+                <h3 class="hidden">Client Testimonials</h3>
+                <article class="col-span-4 m-col-span-4 l-col-span-4">
+                    <div>
+                        <p>
+                            A loyal customer for over a decade, serving Billy Beer’s diverse range of brews to delighted patrons.
+                        </p>
+                    </div>
+                    
+                    <div class="col-span-4 m-col-span-4 l-col-span-4">
+                        <img src="images/russell-lloyd.png" alt="Russell Lloyd">
+                    </div>
+        
+                    <div class="col-span-4 m-col-span-4 l-col-span-4">
+                        <h4>
+                            Russell Lloyd
+                        </h4>
+                        <p>
+                            Writer
+                        </p>
+                    </div>
+                </article>
+
+                <article class="col-span-4 m-col-span-4 l-col-span-4">
+                    <div>
+                        <p>
+                            A dedicated fan since day one, Sarah loves Billy Beer’s locally-sourced, natural flavors and eagerly awaits their seasonal brews.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <img src="images/jessica-walker.png" alt="Jessica Walker">
+                    </div>
+        
+                    <div>
+                        <h4>
+                            Jessica Walker
+                        </h4>
+                        <p>
+                            Developer
+                        </p>
+                    </div>
+                </article>
+
+                <article class="col-span-4 m-col-span-4 l-col-span-4">
+                    <div>
+                        <p>
+                            Partnering with Billy Beer for a refreshing and eco-friendly beer experience, adding to the festival’s celebration and camaraderie.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <img src="images/david-cameron.png" alt="David Cameron">
+                    </div>
+        
+                    <div>
+                        <h4>
+                            David Cameron
+                        </h4>
+                        <p>
+                            Artist
+                        </p>
+                    </div>
+                </article>
+            </section>
+            
+        </section>
+
+        <section id="team-list" style="background-color:#3b3b3b;">
+            <h4 class="hidden">The Team</h4>
+            <h3>Our Team</h3>
+            <section class="grid-con">
+                <div id="team" class="col-span-4 m-col-span-12 l-col-span-12">
+                    <div>
+                        <img src="images/allen.jpg" alt="Allan">
+                        <p>Allan</p>
+                    </div>
+                    <div>
+                        <img src="images/roma.jpg" alt="Roma">
+                        <p>Roma</p>
+                    </div>
+                    <div>
+                        <img src="images/drew.jpg" alt="Drew">
+                        <p>Drew</p>
+                    </div>
+                    <div>
+                        <img src="images/peter.jpg" alt="Peter">
+                        <p>Peter</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <footer>
+        <h2 class="hidden">Footer</h2>
+        <div class="grid-con" style="background-color: #256A3F;">
+            <div class="col-span-4 m-col-span-3 l-col-span-3">
+                <h2>Contact</h2>
+                <p>130 Dundas St</p>
+                <p>London, Ontario</p>
+                <p>+1 (702) 519 1234</p>
+                <p>hello@billybeer.com</p>
+            </div>
+            <div class="col-span-4 m-col-start-5 m-col-end-13 newsletter">
+                <h2 class="footer-heading">Sign up for our Newsletter</h2>
+                <p class="footer-description">Sign up to receive email from us on news, campaigns, and events.</p><br>
+                <input type="email" name="email" placeholder="user@example.com">
+                <button>Subscribe</button><br><br><br><br>
+            </div>  
+        </div>
+
+    </footer>
+            
+    <script src="js/main.js"></script>
+</body>
+</html>
